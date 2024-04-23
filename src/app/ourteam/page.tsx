@@ -14,8 +14,8 @@ export default async function MyTeam() {
   const caughtPokemon = await getCaughtPokemon();
 
   return (
-    <div className="flex flex-col justify-center gap-8 items-center">
-      <div className="flex flex-col justify-center items-center gap-2">
+    <div className="flex flex-col justify-center gap-8 items-center ">
+      <div className="flex flex-col justify-center items-center gap-2 mt-16">
         <h1 className="text-4xl font-bold text-balance leading-none">
           Our Pokémon Team
         </h1>
