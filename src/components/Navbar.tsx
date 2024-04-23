@@ -11,7 +11,7 @@ const navItems = [
 export default function Navbar() {
   const path = usePathname();
   return (
-    <nav className="flex justify-between items-center p-4 bg-balance absolute top-4">
+    <nav className="flex justify-between items-center p-4 bg-balance absolute top-4 mb-8">
       <ul className="flex gap-4 justify-start list-style-none">
         {navItems.map((item) => (
           <li key={item.page} className="">

@@ -2,6 +2,8 @@ import { db } from "@/lib/db";
 import { pokemon } from "@/lib/db/schema";
 import Image from "next/image";
 
+export const dynamic = "force-dynamic";
+
 async function getCaughtPokemon() {
   const caughtPokemon = await db.select().from(pokemon);
 
