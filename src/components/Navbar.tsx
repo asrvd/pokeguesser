@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const navItems = [
   { page: "Home", path: "/" },
-  { page: "Your team", path: "/myteam" },
+  { page: "Our team", path: "/ourteam" },
 ];
 
 export default function Navbar() {
